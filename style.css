@@ -1,0 +1,94 @@
+* {
+    background-color: lightpink;
+}
+/*CSS Doc*/
+
+body {
+
+    margin:40px;
+    padding:20px;
+    font-family: poppins;
+    scroll-behavior:smooth;
+}
+*{
+    box-sizing:border-box;
+}
+
+h1{
+    color: white;
+    
+}
+.main nav{
+    float:right;
+}
+
+.About_Me{
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: lightpink;
+}
+
+.bitmoji img{
+    height: 20px;
+
+}
+
+.Skills img {
+    width: 50px;
+}
+
+/*#image1{
+    width: 20px;
+} 
+
+#image2{
+    width: 20px;
+}*/
+
+#image3{
+    width: auto;
+    height: 50px;
+}
+
+nav ul{
+    display: flex; 
+}
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+nav ul li a:hover{
+    background-color:black;
+    color: #FFFFFF;
+    box-shadow: 5px 10px 30p black;
+    transition: all ease 0.2;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: black;
+    text-align: center;
+  }
